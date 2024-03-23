@@ -8,7 +8,7 @@ import UserLinks from './NavLists/UserLinks'
 import NavbarBrand from './NavbarBrand'
 
 const Navbar = () => {
-  const session: boolean = false
+  const session: boolean = true
 
   const user: TempUser = {
     role: 'admin',
