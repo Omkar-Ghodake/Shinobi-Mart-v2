@@ -1,12 +1,12 @@
 import { ReactElement } from 'react'
-import { NavLinks, ShadcnButtonSize, ShadcnButtonVariant } from './dataTypes'
+import { NavLink, ShadcnButtonSize, ShadcnButtonVariant } from './dataTypes'
 
 export type NavItemProps = {
   title: string
   dropdown: boolean
   url: string
   icon?: ReactElement
-  dropDownItems?: NavLinks[]
+  dropDownItems?: NavLink[]
   className?: string
   iconClassName?: string
   titleClassName?: string
